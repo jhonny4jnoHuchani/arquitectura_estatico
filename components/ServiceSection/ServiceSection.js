@@ -72,7 +72,7 @@ const ServiceSection = (props) => {
     useEffect(() => {
         const fetchOfertas = async () => {
             try {
-                const response = await fetch("https://serviciopagina.upea.bo/api/OfertasAcademicasAll/36");
+                const response = await fetch("https://serviciopagina.upea.bo/api/OfertasAcademicasAll/3");
                 const data = await response.json();
                 setOfertas(data);
             } catch (error) {
